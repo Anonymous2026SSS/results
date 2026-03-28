@@ -1,6 +1,6 @@
 #  A. Response to Reviewer rK9R
 ### A.1 Causal Evidence of Pathway-Driven Predictions When the Target Token Is Not Rank-1.
-Using the NaNA framework, we extract a pathway: "*The capital of Germany is*" → "*Frankfurt*". Following the experiments in Section 4.2 (part 2), we perform both **standard and ablation experiments** by reconstructing the middle-to-late MLP layers of GPT-2 Medium using an increasing number of high-contribution subspaces. We then present the top-15 predicted tokens for the prompt "*The capital of Germany is*". The results show that using only the top-15 subspaces is necessary to successfully predict "*Frankfurt*".
+Following the experiment in Section 4.2 (part 2), we use the NaNA framework to extract the pathway for "*The capital of Germany is*" → "*Frankfurt*".  We perform both **standard and ablation experiments** by reconstructing the middle-to-late MLP layers of GPT-2 Medium using an increasing number of high-contribution subspaces. The top-15 predicted tokens for the prompt "*The capital of Germany is*" are then presented. The results demonstrate that using only the top-15 subspaces is sufficient to successfully predict "*Frankfurt*".
  
 <table>
 <tr>
