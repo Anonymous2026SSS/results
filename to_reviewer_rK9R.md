@@ -1,6 +1,6 @@
 #  A. Response to Reviewer rK9R
 ### A.1 Causal Evidence of Pathway-Driven Predictions When the Target Token Is Not Rank-1.
-Following the experiment in Section 4.2 (part 2), we use the NaNA framework to extract the pathway for "*The capital of Germany is*" → "*Frankfurt*".  We perform both **standard and ablation experiments** by reconstructing the middle-to-late MLP layers of GPT-2 Medium using an increasing number of high-contribution subspaces. The top-15 predicted tokens for the prompt "*The capital of Germany is*" are then presented. The results demonstrate that using only the top-15 subspaces is sufficient to successfully predict "*Frankfurt*".
+Following the experiment in Section 4.2 (part 2) of the paper, we use the NaNA framework to extract the pathway for "*The capital of Germany is*" → "*Frankfurt*".  We perform both **standard and ablation experiments** by reconstructing the middle-to-late MLP layers of GPT-2 Medium using an increasing number of high-contribution subspaces. The top-15 predicted tokens for the prompt "*The capital of Germany is*" are then presented. The results demonstrate that using only the top-15 subspaces is sufficient to successfully predict "*Frankfurt*".
  
 <table>
 <tr>
@@ -16,4 +16,18 @@ Following the experiment in Section 4.2 (part 2), we use the NaNA framework to e
 </table>
  
 
- 
+### A.2 Impact of Pathways on Predictive Performance (When the Target Token Is Not Rank-1).
+Following the experiments in Section 4.2 (part 1) of the paper, we conduct **standard and ablation experiments** to evaluate the impact of high-contribution subspaces on the target token’s probability (↑) and rank (↓) in the case "*The capital of Germany is*" → "*Frankfurt*". Here, randomly selected subspaces are used as a baseline. The results indicate that the dominant subspaces identified by SCA are necessary for predicting the specific target token.
+
+<table>
+<tr>
+  <td align="center">
+    <img src="results/gpt2-medium_token_rank_curve.png" width="500"><br>
+    <b>Figure 2 (a). Rank (↓) </b>
+  </td>
+  <td align="center">
+    <img src="results/gpt2-medium_token_prob_curve.png" width="500"><br>
+    <b>Figure 2 (b). Probability (↑) </b>
+  </td>
+</tr>
+</table>
