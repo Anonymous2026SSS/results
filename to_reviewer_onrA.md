@@ -90,7 +90,3 @@ On the Subject–Verb Agreement Task (Simple Structure), we compare SCA (ours) w
 </table>
 
 
-
-#  B. Response to Reviewer rK9R
-### A.1 Evaluation on Constructed Datasets and Advanced SAE Variants
-#### A.1.1 Evaluation on the Gender Pronoun Task
