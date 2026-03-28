@@ -1,32 +1,19 @@
 #  A. Response to Reviewer rK9R
-### A.1 Evaluation on Constructed Datasets and Advanced SAE Variants
-#### A.1.1 Evaluation on the Gender Pronoun Task
-On the Gender Pronoun Task, we compare SCA (ours) with vanilla SAE, JumpReLU SAE, Top-K SAE, BatchTopK SAE, and the Transcoder. Due to the large fluctuations of the Top-K SAE curve, Figures 1(a) and 1(b) do not include Top-K SAE. Figures 2(a) and 2(b) include Top-K SAE.\
-(NOTE: Lower rank values (↓) indicate better performance, whereas higher probability values (↑) indicate better performance.)
+### A.1 Causal Evidence of Pathway-Driven Predictions When the Target Token Is Not Rank-1.
+Using the NaNA framework, we extract a pathway: "*The capital of Germany is*" → "*Frankfurt*". Following the experiments in Section 4.2 (part 2), we perform both **standard and ablation experiments** by reconstructing the middle-to-late MLP layers of GPT-2 Medium using an increasing number of high-contribution subspaces. We then present the top-15 predicted tokens for the prompt "*The capital of Germany is*". The results show that using only the top-15 subspaces is necessary to successfully predict "*Frankfurt*".
  
 <table>
 <tr>
   <td align="center">
-    <img src="results/target_rank_layer_10_gender_pron_without_topkbatch.png" width="300"><br>
-    <b>Figure 1 (a). Rank (↓, without Top-K SAE)</b>
+    <img src="results/Frankfurt_general_gpt2-medium.png" width="300"><br>
+    <b>Figure 1 (a). Standard Experiment</b>
   </td>
   <td align="center">
-    <img src="results/target_probability_layer_10_gender_pron_without_topkbatch.png" width="300"><br>
-    <b>Figure 1 (b). Probability (↑, without Top-K SAE)</b>
+    <img src="results/Frankfurt_ablation_gpt2-medium.png" width="300"><br>
+    <b>Figure 1 (b). Ablation Experiment </b>
   </td>
 </tr>
 </table>
-<table>
-<tr>
-  <td align="center">
-    <img src="results/target_rank_layer_10_gender_pron_with_topkbatch.png" width="300"><br>
-    <b>Figure 2 (a). Rank (↓, with Top-K SAE)</b>
-  </td>
-  <td align="center">
-    <img src="results/target_probability_layer_10_gender_pron_with_topkbatch.png" width="300"><br>
-    <b> Figure 2 (b). Probability (↑, with Top-K SAE)  </b>
-  </td>
-</tr>
-</table>
+ 
 
  
