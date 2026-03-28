@@ -6,19 +6,15 @@ On the Gender Pronoun Task, we compare SCA (ours) with vanilla SAE, JumpReLU SAE
 <table>
 <tr>
   <td align="center">
-    <b>Rank</b><br>
-    <img src="results/target_rank_layer_10_gender_pron_with_topkbatch.png" width="300">
+    <img src="results/target_rank_layer_10_gender_pron_with_topkbatch.png" width="300"><br>
+    <b>Rank</b>
   </td>
   <td align="center">
-    <b>Probability</b><br>
-    <img src="results/target_probability_layer_10_gender_pron_with_topkbatch.png" width="300">
+    <img src="results/target_probability_layer_10_gender_pron_with_topkbatch.png" width="300"><br>
+    <b>Probability</b>
   </td>
 </tr>
 </table>
-
-| ![](results/target_rank_layer_10_gender_pron_with_topkbatch.png) | ![](results/target_probability_layer_10_gender_pron_with_topkbatch.png) |
-|:----------------:|:----------------:|
-| Rank | Probability |
 
 #### 🔹 Evaluation on the Subject–Verb Agreement Task (Simple Structure)
 On the Subject–Verb Agreement Task (Simple Structure), we compare SCA (ours) with vanilla SAE, JumpReLU SAE, Top-K SAE, BatchTopK SAE, and the Transcoder.
