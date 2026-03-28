@@ -8,11 +8,11 @@ On the Gender Pronoun Task, we compare SCA (ours) with vanilla SAE, JumpReLU SAE
 <tr>
   <td align="center">
     <img src="results/target_rank_layer_10_gender_pron_without_topkbatch.png" width="300"><br>
-    <b>Rank (without Top-K SAE)</b>
+    <b>Figure 1 (a). Rank (without Top-K SAE)</b>
   </td>
   <td align="center">
     <img src="results/target_probability_layer_10_gender_pron_without_topkbatch.png" width="300"><br>
-    <b>Probability (without Top-K SAE)</b>
+    <b>Figure 1 (b). Probability (without Top-K SAE)</b>
   </td>
 </tr>
 </table>
@@ -20,11 +20,11 @@ On the Gender Pronoun Task, we compare SCA (ours) with vanilla SAE, JumpReLU SAE
 <tr>
   <td align="center">
     <img src="results/target_rank_layer_10_gender_pron_with_topkbatch.png" width="300"><br>
-    <b>Rank (with Top-K SAE)</b>
+    <b>Figure 2 (a). Rank (with Top-K SAE)</b>
   </td>
   <td align="center">
     <img src="results/target_probability_layer_10_gender_pron_with_topkbatch.png" width="300"><br>
-    <b>Probability (with Top-K SAE)</b>
+    <b>Figure 2 (b). Probability (with Top-K SAE)</b>
   </td>
 </tr>
 </table>
