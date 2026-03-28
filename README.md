@@ -28,7 +28,7 @@ On the Gender Pronoun Task, we compare SCA (ours) with vanilla SAE, JumpReLU SAE
 </tr>
 </table>
 
-#### 🔹 Evaluation on the Subject–Verb Agreement Task (Simple Structure)
+#### A.1.2 Evaluation on the Subject–Verb Agreement Task (Simple Structure)
 On the Subject–Verb Agreement Task (Simple Structure), we compare SCA (ours) with vanilla SAE, JumpReLU SAE, Top-K SAE, BatchTopK SAE, and the Transcoder. Due to the large fluctuations of the Top-K SAE curve, Figures 3(a) and 3(b) do not include Top-K SAE. Figures 4(a) and 4(b) include Top-K SAE.
 
  
@@ -57,7 +57,7 @@ On the Subject–Verb Agreement Task (Simple Structure), we compare SCA (ours) w
 </tr>
 </table>
 
-#### 🔹 Evaluation on the Subject–Verb Agreement Task (Relative Clause) 
+#### A.1.3 Evaluation on the Subject–Verb Agreement Task (Relative Clause) 
 On the Subject–Verb Agreement Task (Relative Clause), we compare SCA (ours) with vanilla SAE, JumpReLU SAE, Top-K SAE, BatchTopK SAE, and the Transcoder. Due to the large fluctuations of the Top-K SAE curve, Figures 5(a) and 5(b) do not include Top-K SAE. Figures 6(a) and 6(b) include Top-K SAE.
 
  
