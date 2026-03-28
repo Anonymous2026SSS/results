@@ -1,5 +1,9 @@
 #  A. Response to Reviewer wjvF
 ### A.1 Computational Cost of Building the Interpretability Datastore
+We evaluated the computational cost of constructing a single-layer interpretability datastore for GPT models of varying sizes on a NVIDIA A100 GPU (40 GB). Both total runtime and peak GPU memory consumption show a linear relationship with matrix size, indicating that our method can potentially scale effectively to larger models.
+|Model | GPT-2       | GPT2-Medium | GPT2-Large | GPT2-XL  | GPT-Neo-2.7B | GPT-J-6B |
+|------------|------------|-------------|------------|----------|--------------|----------|
+| Parameters| 117 million | 345 million | 774 million | 1.5 billion | 2.7 billion  | 6 billion |
 
 #### A.1.1 Runtime 
 
