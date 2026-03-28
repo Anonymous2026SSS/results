@@ -31,3 +31,24 @@ Following the experiments in Section 4.2 (part 1) of the paper, we conduct **sta
   </td>
 </tr>
 </table>
+
+
+### A.3 Subspace Interventions.
+Following the experiments in Section 4.2 (part 3) of the paper, we visualize the effects of manipulating Subspaces 5 and 9 of Layer 16 in GPT2-Medium for the prompt "*The cat looks very*".  The table below presents the semantics of these subspaces and their contributions. We observe that amplifying or suppressing certain subspaces, such as 5 or 9, correspondingly enhances their positive or negative semantic interpretations.  
+|subspace| Positive Direction|  Negative Direction| Subspace Contribution|
+|-|-|-|-|
+| 5 | Inspection Actions | insufficiency concepts | 0.073 |
+| 9 | historical decades |Criticismand Feedback | 0.0623 |
+<table>
+<tr>
+  <td align="center">
+    <img src="results/interven_single_subspace5.png" width="500"><br>
+    <b>Figure 2 (a). Rank (↓) </b>
+  </td>
+  <td align="center">
+    <img src="results/interven_single_subspace9.png" width="500"><br>
+    <b>Figure 2 (b). Probability (↑) </b>
+  </td>
+</tr>
+</table>
+
