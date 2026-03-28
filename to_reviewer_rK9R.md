@@ -5,11 +5,11 @@ Using the NaNA framework, we extract a pathway: "*The capital of Germany is*" â†
 <table>
 <tr>
   <td align="center">
-    <img src="results/Frankfurt_general_gpt2-medium.png" width="300"><br>
+    <img src="results/Frankfurt_general_gpt2-medium.png" width="500"><br>
     <b>Figure 1 (a). Standard Experiment</b>
   </td>
   <td align="center">
-    <img src="results/Frankfurt_ablation_gpt2-medium.png" width="300"><br>
+    <img src="results/Frankfurt_ablation_gpt2-medium.png" width="500"><br>
     <b>Figure 1 (b). Ablation Experiment </b>
   </td>
 </tr>
