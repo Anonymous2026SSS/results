@@ -24,7 +24,7 @@ On the Gender Pronoun Task, we compare SCA (ours) with vanilla SAE, JumpReLU SAE
   </td>
   <td align="center">
     <img src="results/target_probability_layer_10_gender_pron_with_topkbatch.png" width="300"><br>
-    <b>Figure 2 (b). Probability (↑, with Top-K SAE)</b>
+    <b> Figure 2 (b). Probability (↑, with Top-K SAE)  </b>
   </td>
 </tr>
 </table>
