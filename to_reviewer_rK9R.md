@@ -46,11 +46,11 @@ Here, we visualize the top-15 predicted tokens of GPT2‑Medium under standard a
 <table>
 <tr>
   <td align="center">
-    <img src="results/interven_single_subspace5.png" width="500"><br>
+    <img src="results/intervention_single_subspace5.png" width="500"><br>
     <b>Figure 3 (a). Intervention on Subspace 5.</b>
   </td>
   <td align="center">
-    <img src="results/interven_single_subspace9.png" width="500"><br>
+    <img src="results/intervention_single_subspace9.png" width="500"><br>
     <b>Figure 3 (b). Intervention on Subspace 9. </b>
   </td>
 </tr>
