@@ -1,8 +1,7 @@
 #  A. Response to Reviewer onrA
 ### A.1 Evaluation on Benchmark Datasets and Advanced SAE Variants
 #### A.1.1 Evaluation on the Gender Pronoun Task
-On the Gender Pronoun Task, we compare SCA (ours) with vanilla SAE, JumpReLU SAE, Top-K SAE, BatchTopK SAE, and the Transcoder. Due to the large fluctuations of the Top-K SAE curve, Figures 1(a) and 1(b) do not include Top-K SAE. Figures 2(a) and 2(b) include Top-K SAE.\
-(NOTE: Lower rank values (↓) indicate better performance, whereas higher probability values (↑) indicate better performance.)
+Due to the large fluctuations of the Top-K SAE curve, Figures 1(a) and 1(b) do not include Top-K SAE. Figures 2(a) and 2(b) include Top-K SAE.
  
 <table>
 <tr>
@@ -31,7 +30,7 @@ On the Gender Pronoun Task, we compare SCA (ours) with vanilla SAE, JumpReLU SAE
 
 
 #### A.1.2 Evaluation on the Subject–Verb Agreement Task (Relative Clause) 
-On the Subject–Verb Agreement Task (Relative Clause), we compare SCA (ours) with vanilla SAE, JumpReLU SAE, Top-K SAE, BatchTopK SAE, and the Transcoder. Due to the large fluctuations of the Top-K SAE curve, Figures 5(a) and 5(b) do not include Top-K SAE. Figures 6(a) and 6(b) include Top-K SAE.
+Due to the large fluctuations of the Top-K SAE curve, Figures 5(a) and 5(b) do not include Top-K SAE. Figures 6(a) and 6(b) include Top-K SAE.
 
  
 <table>
@@ -61,7 +60,7 @@ On the Subject–Verb Agreement Task (Relative Clause), we compare SCA (ours) wi
 
 
 #### A.1.3 Evaluation on the Subject–Verb Agreement Task (Simple Structure)
-On the Subject–Verb Agreement Task (Simple Structure), we compare SCA (ours) with vanilla SAE, JumpReLU SAE, Top-K SAE, BatchTopK SAE, and the Transcoder. Due to the large fluctuations of the Top-K SAE curve, Figures 3(a) and 3(b) do not include Top-K SAE. Figures 4(a) and 4(b) include Top-K SAE.
+Due to the large fluctuations of the Top-K SAE curve, Figures 3(a) and 3(b) do not include Top-K SAE. Figures 4(a) and 4(b) include Top-K SAE.
 
  
 <table>
