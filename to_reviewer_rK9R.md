@@ -1,5 +1,5 @@
 #  A. Response to Reviewer rK9R
-### A.1 Causal Evidence of Pathway-Driven Predictions When the Target Token Is Not Rank-1.
+### A.1 Causal Evidence of Pathway-Driven Predictions (When the Target Token Is Not Rank-1).
  
 <table>
 <tr>
