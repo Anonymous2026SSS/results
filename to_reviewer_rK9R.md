@@ -15,7 +15,7 @@
 </table>
 
 **Figure 1. Reconstruction of Middle-to-Late MLP Layers via Pathways within Top-$k$ High-Contribution Subspaces: Standard vs. Ablation.**
-Here, we visualize the top-15 predicted tokens of GPT2‑Medium under standard and ablation interventions for the case "*The capital of Germany is*" → "*Frankfurt*".
+Here, we consider the case "*The capital of Germany is*" → "*Frankfurt*".
  
 
 ### A.2 Impact of Pathways on Predictive Performance (When the Target Token Is Not Rank-1).
@@ -33,7 +33,7 @@ Here, we visualize the top-15 predicted tokens of GPT2‑Medium under standard a
 </tr>
 </table>
 
-**Figure 2. Pathway Analysis via Top-$k$ Subspace Interventions in GPT2-Medium.** We evaluate the impact of high-contribution subspaces on the target token’s probability ($\uparrow$) and rank ($\downarrow$) in the positive semantic case ("*The capital of Germany is*" → "*Frankfurt*").
+**Figure 2. Pathway Analysis via Top-$k$ Subspace Interventions in GPT2-Medium.** Here, we consider the case ("*The capital of Germany is*" → "*Frankfurt*").
 
 ### A.3 Subspace Interventions.
 
@@ -56,4 +56,4 @@ Here, we visualize the top-15 predicted tokens of GPT2‑Medium under standard a
 </tr>
 </table>
 
-**Figure 3. Model Lexical Preferences under Intervention on Subspaces 5 and 9.** We show the evolution of the top-15 tokens as the relative perturbation coefficient $\alpha$ varies from suppression ($\alpha < 0$) to amplification ($\alpha > 0$). Here, we consider the prompt "*The cat looks very*".
+**Figure 3. Model Lexical Preferences under Intervention on Subspaces 5 and 9.** Here, we consider the prompt "*The cat looks very*".
