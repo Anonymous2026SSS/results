@@ -14,7 +14,7 @@
 </tr>
 </table>
 
-**Figure 1. Reconstruction of Middle-to-Late MLP Layers via Pathways within Top-$k$ High-Contribution Subspaces: Standard vs. Ablation.**
+**Figure 1. Reconstruction of Middle-to-Late MLP Layers via Pathways within Top-*k* High-Contribution Subspaces: Standard vs. Ablation.**
 Here, we consider the case "*The capital of Germany is*" → "*Frankfurt*".
  
 
@@ -33,7 +33,7 @@ Here, we consider the case "*The capital of Germany is*" → "*Frankfurt*".
 </tr>
 </table>
 
-**Figure 2. Pathway Analysis via Top-$k$ Subspace Interventions in GPT2-Medium.** Here, we consider the case ("*The capital of Germany is*" → "*Frankfurt*").
+**Figure 2. Pathway Analysis via Top-*k* Subspace Interventions in GPT2-Medium.** Here, we consider the case ("*The capital of Germany is*" → "*Frankfurt*").
 
 ------------------
 
