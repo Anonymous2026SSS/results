@@ -1,6 +1,6 @@
 #  Response to Reviewer onrA
-### A.1 Evaluation on Benchmark Datasets and Advanced SAE Variants
-### A.1.1  Evaluation on the Gender Pronoun Task
+
+----------
 <table>
 <tr>
   <td align="center">
@@ -28,7 +28,7 @@
 
 **Figure 1. Evaluation on the Gender Pronoun Task.** Due to the large fluctuations of the Top-K SAE curve, Figures 1(a) and 1(b) do not include Top-K SAE. Figures 1(c) and 1(d) include Top-K SAE.
 
-### A.1.2 Evaluation on the Subject–Verb Agreement Task (Relative Clause)
+----------
  
 <table>
 <tr>
@@ -57,7 +57,7 @@
 
 **Figure 2. Evaluation on the Subject–Verb Agreement Task (Relative Clause).** Due to the large fluctuations of the Top-K SAE curve, Figures 2(a) and 2(b) do not include Top-K SAE. Figures 2(c) and 2(d) include Top-K SAE.
 
-### A.1.3 Evaluation on the Subject–Verb Agreement Task (Simple Structure)
+----------
 
 <table>
 <tr>
