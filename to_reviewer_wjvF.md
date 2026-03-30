@@ -1,6 +1,6 @@
 #  A. Response to Reviewer wjvF
  
----------------
+ 
 **Table 1. Model Configurations and Parameter Counts**
 |Model | GPT-2       | GPT2-Medium | GPT2-Large | GPT2-XL  | GPT-Neo-2.7B | GPT-J-6B |
 |------------|------------|-------------|------------|----------|--------------|----------|
