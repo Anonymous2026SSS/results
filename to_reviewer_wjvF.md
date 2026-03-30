@@ -11,7 +11,7 @@
 <table>
 <tr>
   <td align="center">
-    <img src="results/runtime_a100GPU_40GB.png" width="400"><br>
+    <img src="results/runtime_a100GPU_40GB.png" width="600"><br>
     <b>Figure 1. Runtime for Building the Interpretability Datastore for a Single Layer. </b>
   </td>
 </table>
@@ -21,7 +21,7 @@
  <table>
 <tr>
   <td align="center">
-    <img src="results/mem_a100GPU_40GB.png" width="400"><br>
+    <img src="results/mem_a100GPU_40GB.png" width="600"><br>
     <b>Figure 2. Peak GPU Memory for Building the Interpretability Datastore for a Single Layer. </b>
   </td>
 </table>
