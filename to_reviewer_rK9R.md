@@ -1,5 +1,5 @@
 #  A. Response to Reviewer rK9R
-### A.1 Causal Evidence of Pathway-Driven Predictions (When the Target Token Is Not Rank-1).
+------------------
  
 <table>
 <tr>
@@ -18,7 +18,7 @@
 Here, we consider the case "*The capital of Germany is*" → "*Frankfurt*".
  
 
-### A.2 Impact of Pathways on Predictive Performance (When the Target Token Is Not Rank-1).
+------------------
 
 <table>
 <tr>
@@ -35,14 +35,9 @@ Here, we consider the case "*The capital of Germany is*" → "*Frankfurt*".
 
 **Figure 2. Pathway Analysis via Top-$k$ Subspace Interventions in GPT2-Medium.** Here, we consider the case ("*The capital of Germany is*" → "*Frankfurt*").
 
-### A.3 Subspace Interventions.
+------------------
 
-**Table 1. Semantic Interpretation and Contributions of Subspaces 5 and 9.** Here, we consider the prompt "*The cat looks very*".
- |Subspace|  Negative Direction | Positive Direction | Subspace Contribution|
- |-|-|-|-|
- | 5 | insufficiency concepts | Inspection Actions | 0.073 |
- | 9 |Criticismand Feedback | historical decades| 0.0623 |
-
+ 
 <table>
 <tr>
   <td align="center">
